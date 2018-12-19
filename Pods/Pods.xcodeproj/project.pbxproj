@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344CDE084F5B9DEC3B109F4402EC4176 /* Pods-GTexture_Usage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7E09D4D87B8EFD39C5F346289CFDF /* Pods-GTexture_Usage_Example-dummy.m */; };
+		5EA24F36B14F7BFFFDBB6E34A9B8C44B /* Pods-GTexture_Usage_ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87209B2B46C0634AD6F0CBB52B3B0EC8 /* Pods-GTexture_Usage_ExampleUITests-dummy.m */; };
+		69B48DAA0CC361751126D1C750FCB919 /* Pods-GTexture_Usage_ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A13280A257E8EC21926D8CE26D715050 /* Pods-GTexture_Usage_ExampleTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844FB3EF17402447249843485481408A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C099AB59A5DB3E78CDD3B89372891342;
+			remoteInfo = "Pods-GTexture_Usage_Example";
+		};
+		F9B91FACD003B64388C947F36AC0D942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C099AB59A5DB3E78CDD3B89372891342;
+			remoteInfo = "Pods-GTexture_Usage_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CF834717D5A5E18AA8E0E8ABF75E2B /* Pods-GTexture_Usage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTexture_Usage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		30E6BEF2AE76E1F3B0A4C0A065E2C4FB /* Pods-GTexture_Usage_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTexture_Usage_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40187B77AE8FAE69F1F4EA77E4ACB5B6 /* Pods-GTexture_Usage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTexture_Usage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		41C485996E19648DCAACA2236A91FED2 /* Pods-GTexture_Usage_ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTexture_Usage_ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		467121CF5B16B18B959D6348659D97BB /* Pods-GTexture_Usage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTexture_Usage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54B6E60EBE3386F6227CA41D99C73CA3 /* Pods-GTexture_Usage_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTexture_Usage_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		58F7E09D4D87B8EFD39C5F346289CFDF /* Pods-GTexture_Usage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTexture_Usage_Example-dummy.m"; sourceTree = "<group>"; };
+		5ADFD148AF5EB87585020D6034D2CACB /* Pods-GTexture_Usage_ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTexture_Usage_ExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		5FBF0E385E6B42DCA188C9FDE565008A /* Pods-GTexture_Usage_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTexture_Usage_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		640A90715C69F606ECD91A64E2E24FBA /* Pods-GTexture_Usage_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTexture_Usage_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B31B1899F3AF1E54BE4CBDA42D21B25 /* Pods-GTexture_Usage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTexture_Usage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6F8FA49ACC70014CA3DEA963CBA4C161 /* Pods-GTexture_Usage_ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTexture_Usage_ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		702E5304EE4FB173FB1DF6EDF4359E81 /* Pods-GTexture_Usage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTexture_Usage_Example-resources.sh"; sourceTree = "<group>"; };
+		75D4C336ABAB36DC164D5EF5EB8513D9 /* Pods-GTexture_Usage_ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTexture_Usage_ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		87209B2B46C0634AD6F0CBB52B3B0EC8 /* Pods-GTexture_Usage_ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTexture_Usage_ExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		92D5C88D5C4F9EB605EFA068FD798328 /* Pods-GTexture_Usage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTexture_Usage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96FEB39D41CAEE218D4FE9C7AF24BA57 /* libPods-GTexture_Usage_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GTexture_Usage_Example.a"; path = "libPods-GTexture_Usage_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B82282F851E3D6C8E0CF3FE3DE2D6C7 /* libPods-GTexture_Usage_ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GTexture_Usage_ExampleTests.a"; path = "libPods-GTexture_Usage_ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13280A257E8EC21926D8CE26D715050 /* Pods-GTexture_Usage_ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTexture_Usage_ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		C7A9B34C338299CC1F5D956957959E24 /* Pods-GTexture_Usage_ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTexture_Usage_ExampleTests-resources.sh"; sourceTree = "<group>"; };
+		D77F14EA645D72F89B4B2A47067D3F2F /* Pods-GTexture_Usage_ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTexture_Usage_ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1F0B4916997FC60F080D01FBC59D3D7 /* libPods-GTexture_Usage_ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GTexture_Usage_ExampleUITests.a"; path = "libPods-GTexture_Usage_ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BE683AE7EB6339F71BA5B6099CC93 /* Pods-GTexture_Usage_ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTexture_Usage_ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		F74C99EC7E33D6EF9C42BC52A76C1CED /* Pods-GTexture_Usage_ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTexture_Usage_ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F11F0C8BD5C30DE8D19563C8AFCCB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1146BD6EF1E57B1AC783AD5DFF7A763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8EA1951F4D124439C87290127F2E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28F83253CEB665FB3E5D8A4D2D1A191C /* Pods-GTexture_Usage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				92D5C88D5C4F9EB605EFA068FD798328 /* Pods-GTexture_Usage_Example-acknowledgements.markdown */,
+				40187B77AE8FAE69F1F4EA77E4ACB5B6 /* Pods-GTexture_Usage_Example-acknowledgements.plist */,
+				58F7E09D4D87B8EFD39C5F346289CFDF /* Pods-GTexture_Usage_Example-dummy.m */,
+				08CF834717D5A5E18AA8E0E8ABF75E2B /* Pods-GTexture_Usage_Example-frameworks.sh */,
+				702E5304EE4FB173FB1DF6EDF4359E81 /* Pods-GTexture_Usage_Example-resources.sh */,
+				467121CF5B16B18B959D6348659D97BB /* Pods-GTexture_Usage_Example.debug.xcconfig */,
+				6B31B1899F3AF1E54BE4CBDA42D21B25 /* Pods-GTexture_Usage_Example.release.xcconfig */,
+			);
+			name = "Pods-GTexture_Usage_Example";
+			path = "Target Support Files/Pods-GTexture_Usage_Example";
+			sourceTree = "<group>";
+		};
+		2D85D2E6C41425F72000F68A221D7CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FEB39D41CAEE218D4FE9C7AF24BA57 /* libPods-GTexture_Usage_Example.a */,
+				9B82282F851E3D6C8E0CF3FE3DE2D6C7 /* libPods-GTexture_Usage_ExampleTests.a */,
+				E1F0B4916997FC60F080D01FBC59D3D7 /* libPods-GTexture_Usage_ExampleUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F0E0A5B17AF023CC026E7F0966B1D87 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F83253CEB665FB3E5D8A4D2D1A191C /* Pods-GTexture_Usage_Example */,
+				A8CE49792E139B160D21C8E65FA4DF44 /* Pods-GTexture_Usage_ExampleTests */,
+				58A4D42FFD156B2574AFF37BC1900FC5 /* Pods-GTexture_Usage_ExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58A4D42FFD156B2574AFF37BC1900FC5 /* Pods-GTexture_Usage_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F74C99EC7E33D6EF9C42BC52A76C1CED /* Pods-GTexture_Usage_ExampleUITests-acknowledgements.markdown */,
+				D77F14EA645D72F89B4B2A47067D3F2F /* Pods-GTexture_Usage_ExampleUITests-acknowledgements.plist */,
+				87209B2B46C0634AD6F0CBB52B3B0EC8 /* Pods-GTexture_Usage_ExampleUITests-dummy.m */,
+				75D4C336ABAB36DC164D5EF5EB8513D9 /* Pods-GTexture_Usage_ExampleUITests-frameworks.sh */,
+				5ADFD148AF5EB87585020D6034D2CACB /* Pods-GTexture_Usage_ExampleUITests-resources.sh */,
+				30E6BEF2AE76E1F3B0A4C0A065E2C4FB /* Pods-GTexture_Usage_ExampleUITests.debug.xcconfig */,
+				640A90715C69F606ECD91A64E2E24FBA /* Pods-GTexture_Usage_ExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-GTexture_Usage_ExampleUITests";
+			path = "Target Support Files/Pods-GTexture_Usage_ExampleUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				2D85D2E6C41425F72000F68A221D7CB5 /* Products */,
+				2F0E0A5B17AF023CC026E7F0966B1D87 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A8CE49792E139B160D21C8E65FA4DF44 /* Pods-GTexture_Usage_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FA49ACC70014CA3DEA963CBA4C161 /* Pods-GTexture_Usage_ExampleTests-acknowledgements.markdown */,
+				41C485996E19648DCAACA2236A91FED2 /* Pods-GTexture_Usage_ExampleTests-acknowledgements.plist */,
+				A13280A257E8EC21926D8CE26D715050 /* Pods-GTexture_Usage_ExampleTests-dummy.m */,
+				EA7BE683AE7EB6339F71BA5B6099CC93 /* Pods-GTexture_Usage_ExampleTests-frameworks.sh */,
+				C7A9B34C338299CC1F5D956957959E24 /* Pods-GTexture_Usage_ExampleTests-resources.sh */,
+				5FBF0E385E6B42DCA188C9FDE565008A /* Pods-GTexture_Usage_ExampleTests.debug.xcconfig */,
+				54B6E60EBE3386F6227CA41D99C73CA3 /* Pods-GTexture_Usage_ExampleTests.release.xcconfig */,
+			);
+			name = "Pods-GTexture_Usage_ExampleTests";
+			path = "Target Support Files/Pods-GTexture_Usage_ExampleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F53AC04A50DB46A6AA07E548893F5EF /* Pods-GTexture_Usage_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F581D7C962724EA84544754297348697 /* Build configuration list for PBXNativeTarget "Pods-GTexture_Usage_ExampleUITests" */;
+			buildPhases = (
+				BC56CE9109618ED94C948B07A0B2612B /* Sources */,
+				A1146BD6EF1E57B1AC783AD5DFF7A763 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153F1C1B57B2A5C314270CC9FB160FA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTexture_Usage_ExampleUITests";
+			productName = "Pods-GTexture_Usage_ExampleUITests";
+			productReference = E1F0B4916997FC60F080D01FBC59D3D7 /* libPods-GTexture_Usage_ExampleUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C099AB59A5DB3E78CDD3B89372891342 /* Pods-GTexture_Usage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3211FAE381481676D3A78AC141B6ED2 /* Build configuration list for PBXNativeTarget "Pods-GTexture_Usage_Example" */;
+			buildPhases = (
+				195E92BFCA5C9D10102B2F9150EB8149 /* Sources */,
+				CA8EA1951F4D124439C87290127F2E08 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GTexture_Usage_Example";
+			productName = "Pods-GTexture_Usage_Example";
+			productReference = 96FEB39D41CAEE218D4FE9C7AF24BA57 /* libPods-GTexture_Usage_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C310123C0E8CD4E465EED3CD5CBBC030 /* Pods-GTexture_Usage_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B04926197938344AF701B4F28690BF7 /* Build configuration list for PBXNativeTarget "Pods-GTexture_Usage_ExampleTests" */;
+			buildPhases = (
+				CE665BC44549E173F6D744651F25BCC3 /* Sources */,
+				2F11F0C8BD5C30DE8D19563C8AFCCB84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8889B9822FB33D8289AECE1BB6A0EDD8 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTexture_Usage_ExampleTests";
+			productName = "Pods-GTexture_Usage_ExampleTests";
+			productReference = 9B82282F851E3D6C8E0CF3FE3DE2D6C7 /* libPods-GTexture_Usage_ExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2D85D2E6C41425F72000F68A221D7CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C099AB59A5DB3E78CDD3B89372891342 /* Pods-GTexture_Usage_Example */,
+				C310123C0E8CD4E465EED3CD5CBBC030 /* Pods-GTexture_Usage_ExampleTests */,
+				5F53AC04A50DB46A6AA07E548893F5EF /* Pods-GTexture_Usage_ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195E92BFCA5C9D10102B2F9150EB8149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344CDE084F5B9DEC3B109F4402EC4176 /* Pods-GTexture_Usage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC56CE9109618ED94C948B07A0B2612B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA24F36B14F7BFFFDBB6E34A9B8C44B /* Pods-GTexture_Usage_ExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE665BC44549E173F6D744651F25BCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B48DAA0CC361751126D1C750FCB919 /* Pods-GTexture_Usage_ExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153F1C1B57B2A5C314270CC9FB160FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTexture_Usage_Example";
+			target = C099AB59A5DB3E78CDD3B89372891342 /* Pods-GTexture_Usage_Example */;
+			targetProxy = F9B91FACD003B64388C947F36AC0D942 /* PBXContainerItemProxy */;
+		};
+		8889B9822FB33D8289AECE1BB6A0EDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTexture_Usage_Example";
+			target = C099AB59A5DB3E78CDD3B89372891342 /* Pods-GTexture_Usage_Example */;
+			targetProxy = 844FB3EF17402447249843485481408A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001FBB88B647EAA95C69FF0B5E8ED37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467121CF5B16B18B959D6348659D97BB /* Pods-GTexture_Usage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35E43C3DDF99F3C6B8D61E8A9219E28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640A90715C69F606ECD91A64E2E24FBA /* Pods-GTexture_Usage_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46259A0334C330E76C09F04C27C44E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B31B1899F3AF1E54BE4CBDA42D21B25 /* Pods-GTexture_Usage_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CC39F6A5401CABAAC6653D44CFD3D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B6E60EBE3386F6227CA41D99C73CA3 /* Pods-GTexture_Usage_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C961863844B9906174DE7DF7616D8FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E6BEF2AE76E1F3B0A4C0A065E2C4FB /* Pods-GTexture_Usage_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FC735AE552490B34253D58D8578B27A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBF0E385E6B42DCA188C9FDE565008A /* Pods-GTexture_Usage_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B04926197938344AF701B4F28690BF7 /* Build configuration list for PBXNativeTarget "Pods-GTexture_Usage_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC735AE552490B34253D58D8578B27A2 /* Debug */,
+				9CC39F6A5401CABAAC6653D44CFD3D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3211FAE381481676D3A78AC141B6ED2 /* Build configuration list for PBXNativeTarget "Pods-GTexture_Usage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001FBB88B647EAA95C69FF0B5E8ED37E /* Debug */,
+				46259A0334C330E76C09F04C27C44E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F581D7C962724EA84544754297348697 /* Build configuration list for PBXNativeTarget "Pods-GTexture_Usage_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C961863844B9906174DE7DF7616D8FE8 /* Debug */,
+				35E43C3DDF99F3C6B8D61E8A9219E28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

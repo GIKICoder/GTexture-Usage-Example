@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B23786F21CA1EE1001AF262 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23786E21CA1EE1001AF262 /* AppDelegate.m */; };
+		2B23787221CA1EE1001AF262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23787121CA1EE1001AF262 /* ViewController.m */; };
+		2B23787521CA1EE1001AF262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B23787321CA1EE1001AF262 /* Main.storyboard */; };
+		2B23787721CA1EE2001AF262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B23787621CA1EE2001AF262 /* Assets.xcassets */; };
+		2B23787A21CA1EE2001AF262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B23787821CA1EE2001AF262 /* LaunchScreen.storyboard */; };
+		2B23787D21CA1EE2001AF262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23787C21CA1EE2001AF262 /* main.m */; };
+		2B23788721CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23788621CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m */; };
+		2B23789221CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23789121CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m */; };
+		64D9ECED42B0BD8B551AA35F /* libPods-GTexture_Usage_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F952F967DB05AEBAA227B6D4 /* libPods-GTexture_Usage_Example.a */; };
+		912E37D8BA3D3DBFB8C22479 /* libPods-GTexture_Usage_ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE8529ED70987656DC3950F /* libPods-GTexture_Usage_ExampleTests.a */; };
+		F42FE9D59E2F826AAE552EF4 /* libPods-GTexture_Usage_ExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F326DC72C3D001FC787CAA /* libPods-GTexture_Usage_ExampleUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B23788321CA1EE2001AF262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B23786221CA1EE0001AF262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B23786921CA1EE0001AF262;
+			remoteInfo = GTexture_Usage_Example;
+		};
+		2B23788E21CA1EE2001AF262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B23786221CA1EE0001AF262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B23786921CA1EE0001AF262;
+			remoteInfo = GTexture_Usage_Example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B23786A21CA1EE0001AF262 /* GTexture_Usage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTexture_Usage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B23786D21CA1EE0001AF262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B23786E21CA1EE1001AF262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B23787021CA1EE1001AF262 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B23787121CA1EE1001AF262 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B23787421CA1EE1001AF262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B23787621CA1EE2001AF262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B23787921CA1EE2001AF262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B23787B21CA1EE2001AF262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B23787C21CA1EE2001AF262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B23788221CA1EE2001AF262 /* GTexture_Usage_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTexture_Usage_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B23788621CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTexture_Usage_ExampleTests.m; sourceTree = "<group>"; };
+		2B23788821CA1EE2001AF262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B23788D21CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTexture_Usage_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B23789121CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTexture_Usage_ExampleUITests.m; sourceTree = "<group>"; };
+		2B23789321CA1EE2001AF262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D587CF6968335A0F91B8A7A /* Pods-GTexture_Usage_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_ExampleTests/Pods-GTexture_Usage_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3254ED477E29F10B740B150B /* Pods-GTexture_Usage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_Example/Pods-GTexture_Usage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3CB9907BD4EBBB490C778391 /* Pods-GTexture_Usage_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_ExampleUITests/Pods-GTexture_Usage_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66F326DC72C3D001FC787CAA /* libPods-GTexture_Usage_ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTexture_Usage_ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BF7451C55F713197D48A21 /* Pods-GTexture_Usage_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_ExampleUITests/Pods-GTexture_Usage_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA7680395A645A7B8C051DF2 /* Pods-GTexture_Usage_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_ExampleTests/Pods-GTexture_Usage_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C39A3C9C85708B523CDB12B4 /* Pods-GTexture_Usage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_Example/Pods-GTexture_Usage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CBE8529ED70987656DC3950F /* libPods-GTexture_Usage_ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTexture_Usage_ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F952F967DB05AEBAA227B6D4 /* libPods-GTexture_Usage_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTexture_Usage_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B23786721CA1EE0001AF262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D9ECED42B0BD8B551AA35F /* libPods-GTexture_Usage_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B23787F21CA1EE2001AF262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912E37D8BA3D3DBFB8C22479 /* libPods-GTexture_Usage_ExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B23788A21CA1EE2001AF262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42FE9D59E2F826AAE552EF4 /* libPods-GTexture_Usage_ExampleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDF275E44C4852B00C3BA85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C39A3C9C85708B523CDB12B4 /* Pods-GTexture_Usage_Example.debug.xcconfig */,
+				3254ED477E29F10B740B150B /* Pods-GTexture_Usage_Example.release.xcconfig */,
+				AA7680395A645A7B8C051DF2 /* Pods-GTexture_Usage_ExampleTests.debug.xcconfig */,
+				2D587CF6968335A0F91B8A7A /* Pods-GTexture_Usage_ExampleTests.release.xcconfig */,
+				3CB9907BD4EBBB490C778391 /* Pods-GTexture_Usage_ExampleUITests.debug.xcconfig */,
+				A3BF7451C55F713197D48A21 /* Pods-GTexture_Usage_ExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B23786121CA1EE0001AF262 = {
+			isa = PBXGroup;
+			children = (
+				2B23786C21CA1EE0001AF262 /* GTexture_Usage_Example */,
+				2B23788521CA1EE2001AF262 /* GTexture_Usage_ExampleTests */,
+				2B23789021CA1EE2001AF262 /* GTexture_Usage_ExampleUITests */,
+				2B23786B21CA1EE0001AF262 /* Products */,
+				0DDF275E44C4852B00C3BA85 /* Pods */,
+				7A822F55D7C4FA274DCDAFAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B23786B21CA1EE0001AF262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B23786A21CA1EE0001AF262 /* GTexture_Usage_Example.app */,
+				2B23788221CA1EE2001AF262 /* GTexture_Usage_ExampleTests.xctest */,
+				2B23788D21CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B23786C21CA1EE0001AF262 /* GTexture_Usage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B23786D21CA1EE0001AF262 /* AppDelegate.h */,
+				2B23786E21CA1EE1001AF262 /* AppDelegate.m */,
+				2B23787021CA1EE1001AF262 /* ViewController.h */,
+				2B23787121CA1EE1001AF262 /* ViewController.m */,
+				2B23787321CA1EE1001AF262 /* Main.storyboard */,
+				2B23787621CA1EE2001AF262 /* Assets.xcassets */,
+				2B23787821CA1EE2001AF262 /* LaunchScreen.storyboard */,
+				2B23787B21CA1EE2001AF262 /* Info.plist */,
+				2B23787C21CA1EE2001AF262 /* main.m */,
+			);
+			path = GTexture_Usage_Example;
+			sourceTree = "<group>";
+		};
+		2B23788521CA1EE2001AF262 /* GTexture_Usage_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B23788621CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m */,
+				2B23788821CA1EE2001AF262 /* Info.plist */,
+			);
+			path = GTexture_Usage_ExampleTests;
+			sourceTree = "<group>";
+		};
+		2B23789021CA1EE2001AF262 /* GTexture_Usage_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B23789121CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m */,
+				2B23789321CA1EE2001AF262 /* Info.plist */,
+			);
+			path = GTexture_Usage_ExampleUITests;
+			sourceTree = "<group>";
+		};
+		7A822F55D7C4FA274DCDAFAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F952F967DB05AEBAA227B6D4 /* libPods-GTexture_Usage_Example.a */,
+				CBE8529ED70987656DC3950F /* libPods-GTexture_Usage_ExampleTests.a */,
+				66F326DC72C3D001FC787CAA /* libPods-GTexture_Usage_ExampleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B23786921CA1EE0001AF262 /* GTexture_Usage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B23789621CA1EE2001AF262 /* Build configuration list for PBXNativeTarget "GTexture_Usage_Example" */;
+			buildPhases = (
+				F116509A37A2A5F80568B7F7 /* [CP] Check Pods Manifest.lock */,
+				2B23786621CA1EE0001AF262 /* Sources */,
+				2B23786721CA1EE0001AF262 /* Frameworks */,
+				2B23786821CA1EE0001AF262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTexture_Usage_Example;
+			productName = GTexture_Usage_Example;
+			productReference = 2B23786A21CA1EE0001AF262 /* GTexture_Usage_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B23788121CA1EE2001AF262 /* GTexture_Usage_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B23789921CA1EE2001AF262 /* Build configuration list for PBXNativeTarget "GTexture_Usage_ExampleTests" */;
+			buildPhases = (
+				64D41C80436259E25A6CB004 /* [CP] Check Pods Manifest.lock */,
+				2B23787E21CA1EE2001AF262 /* Sources */,
+				2B23787F21CA1EE2001AF262 /* Frameworks */,
+				2B23788021CA1EE2001AF262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B23788421CA1EE2001AF262 /* PBXTargetDependency */,
+			);
+			name = GTexture_Usage_ExampleTests;
+			productName = GTexture_Usage_ExampleTests;
+			productReference = 2B23788221CA1EE2001AF262 /* GTexture_Usage_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B23788C21CA1EE2001AF262 /* GTexture_Usage_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B23789C21CA1EE2001AF262 /* Build configuration list for PBXNativeTarget "GTexture_Usage_ExampleUITests" */;
+			buildPhases = (
+				550324548BE9871440CE4935 /* [CP] Check Pods Manifest.lock */,
+				2B23788921CA1EE2001AF262 /* Sources */,
+				2B23788A21CA1EE2001AF262 /* Frameworks */,
+				2B23788B21CA1EE2001AF262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B23788F21CA1EE2001AF262 /* PBXTargetDependency */,
+			);
+			name = GTexture_Usage_ExampleUITests;
+			productName = GTexture_Usage_ExampleUITests;
+			productReference = 2B23788D21CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B23786221CA1EE0001AF262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = GIKI;
+				TargetAttributes = {
+					2B23786921CA1EE0001AF262 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2B23788121CA1EE2001AF262 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2B23786921CA1EE0001AF262;
+					};
+					2B23788C21CA1EE2001AF262 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2B23786921CA1EE0001AF262;
+					};
+				};
+			};
+			buildConfigurationList = 2B23786521CA1EE0001AF262 /* Build configuration list for PBXProject "GTexture_Usage_Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B23786121CA1EE0001AF262;
+			productRefGroup = 2B23786B21CA1EE0001AF262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B23786921CA1EE0001AF262 /* GTexture_Usage_Example */,
+				2B23788121CA1EE2001AF262 /* GTexture_Usage_ExampleTests */,
+				2B23788C21CA1EE2001AF262 /* GTexture_Usage_ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B23786821CA1EE0001AF262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B23787A21CA1EE2001AF262 /* LaunchScreen.storyboard in Resources */,
+				2B23787721CA1EE2001AF262 /* Assets.xcassets in Resources */,
+				2B23787521CA1EE1001AF262 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B23788021CA1EE2001AF262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B23788B21CA1EE2001AF262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		550324548BE9871440CE4935 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTexture_Usage_ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64D41C80436259E25A6CB004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTexture_Usage_ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F116509A37A2A5F80568B7F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTexture_Usage_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B23786621CA1EE0001AF262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B23787221CA1EE1001AF262 /* ViewController.m in Sources */,
+				2B23787D21CA1EE2001AF262 /* main.m in Sources */,
+				2B23786F21CA1EE1001AF262 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B23787E21CA1EE2001AF262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B23788721CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B23788921CA1EE2001AF262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B23789221CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B23788421CA1EE2001AF262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B23786921CA1EE0001AF262 /* GTexture_Usage_Example */;
+			targetProxy = 2B23788321CA1EE2001AF262 /* PBXContainerItemProxy */;
+		};
+		2B23788F21CA1EE2001AF262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B23786921CA1EE0001AF262 /* GTexture_Usage_Example */;
+			targetProxy = 2B23788E21CA1EE2001AF262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B23787321CA1EE1001AF262 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B23787421CA1EE1001AF262 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B23787821CA1EE2001AF262 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B23787921CA1EE2001AF262 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B23789421CA1EE2001AF262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B23789521CA1EE2001AF262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B23789721CA1EE2001AF262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39A3C9C85708B523CDB12B4 /* Pods-GTexture_Usage_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GTexture_Usage_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GIKI.GTexture-Usage-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B23789821CA1EE2001AF262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3254ED477E29F10B740B150B /* Pods-GTexture_Usage_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GTexture_Usage_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GIKI.GTexture-Usage-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B23789A21CA1EE2001AF262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7680395A645A7B8C051DF2 /* Pods-GTexture_Usage_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GTexture_Usage_ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GIKI.GTexture-Usage-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTexture_Usage_Example.app/GTexture_Usage_Example";
+			};
+			name = Debug;
+		};
+		2B23789B21CA1EE2001AF262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D587CF6968335A0F91B8A7A /* Pods-GTexture_Usage_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GTexture_Usage_ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GIKI.GTexture-Usage-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTexture_Usage_Example.app/GTexture_Usage_Example";
+			};
+			name = Release;
+		};
+		2B23789D21CA1EE2001AF262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB9907BD4EBBB490C778391 /* Pods-GTexture_Usage_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GTexture_Usage_ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GIKI.GTexture-Usage-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GTexture_Usage_Example;
+			};
+			name = Debug;
+		};
+		2B23789E21CA1EE2001AF262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3BF7451C55F713197D48A21 /* Pods-GTexture_Usage_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				INFOPLIST_FILE = GTexture_Usage_ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GIKI.GTexture-Usage-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GTexture_Usage_Example;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B23786521CA1EE0001AF262 /* Build configuration list for PBXProject "GTexture_Usage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B23789421CA1EE2001AF262 /* Debug */,
+				2B23789521CA1EE2001AF262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B23789621CA1EE2001AF262 /* Build configuration list for PBXNativeTarget "GTexture_Usage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B23789721CA1EE2001AF262 /* Debug */,
+				2B23789821CA1EE2001AF262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B23789921CA1EE2001AF262 /* Build configuration list for PBXNativeTarget "GTexture_Usage_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B23789A21CA1EE2001AF262 /* Debug */,
+				2B23789B21CA1EE2001AF262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B23789C21CA1EE2001AF262 /* Build configuration list for PBXNativeTarget "GTexture_Usage_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B23789D21CA1EE2001AF262 /* Debug */,
+				2B23789E21CA1EE2001AF262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B23786221CA1EE0001AF262 /* Project object */;
+}
