@@ -4,9 +4,7 @@
 target 'GTexture_Usage_Example' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-
-  # Pods for GTexture_Usage_Example
-
+  pod "Texture"
   target 'GTexture_Usage_ExampleTests' do
     inherit! :search_paths
     # Pods for testing
