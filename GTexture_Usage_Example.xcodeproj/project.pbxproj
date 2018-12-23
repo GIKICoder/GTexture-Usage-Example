@@ -15,6 +15,7 @@
 		2B23788721CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23788621CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m */; };
 		2B23789221CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23789121CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m */; };
 		2B6C61CB21CF725800EB51D9 /* GTextureNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C61CA21CF725800EB51D9 /* GTextureNodeController.m */; };
+		2B6C61CE21CFC06800EB51D9 /* GEditableTextNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C61CD21CFC06800EB51D9 /* GEditableTextNodeController.m */; };
 		64D9ECED42B0BD8B551AA35F /* libPods-GTexture_Usage_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F952F967DB05AEBAA227B6D4 /* libPods-GTexture_Usage_Example.a */; };
 		912E37D8BA3D3DBFB8C22479 /* libPods-GTexture_Usage_ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE8529ED70987656DC3950F /* libPods-GTexture_Usage_ExampleTests.a */; };
 		F42FE9D59E2F826AAE552EF4 /* libPods-GTexture_Usage_ExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F326DC72C3D001FC787CAA /* libPods-GTexture_Usage_ExampleUITests.a */; };
@@ -55,6 +56,8 @@
 		2B23789321CA1EE2001AF262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6C61C921CF725800EB51D9 /* GTextureNodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTextureNodeController.h; sourceTree = "<group>"; };
 		2B6C61CA21CF725800EB51D9 /* GTextureNodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTextureNodeController.m; sourceTree = "<group>"; };
+		2B6C61CC21CFC06800EB51D9 /* GEditableTextNodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEditableTextNodeController.h; sourceTree = "<group>"; };
+		2B6C61CD21CFC06800EB51D9 /* GEditableTextNodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEditableTextNodeController.m; sourceTree = "<group>"; };
 		2D587CF6968335A0F91B8A7A /* Pods-GTexture_Usage_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_ExampleTests/Pods-GTexture_Usage_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		3254ED477E29F10B740B150B /* Pods-GTexture_Usage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_Example/Pods-GTexture_Usage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3CB9907BD4EBBB490C778391 /* Pods-GTexture_Usage_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTexture_Usage_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTexture_Usage_ExampleUITests/Pods-GTexture_Usage_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 			children = (
 				2B6C61C921CF725800EB51D9 /* GTextureNodeController.h */,
 				2B6C61CA21CF725800EB51D9 /* GTextureNodeController.m */,
+				2B6C61CC21CFC06800EB51D9 /* GEditableTextNodeController.h */,
+				2B6C61CD21CFC06800EB51D9 /* GEditableTextNodeController.m */,
 			);
 			path = Texture_Node;
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 				2B6C61CB21CF725800EB51D9 /* GTextureNodeController.m in Sources */,
 				2B23787D21CA1EE2001AF262 /* main.m in Sources */,
 				2B23786F21CA1EE1001AF262 /* AppDelegate.m in Sources */,
+				2B6C61CE21CFC06800EB51D9 /* GEditableTextNodeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
