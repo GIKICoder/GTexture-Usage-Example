@@ -1,4 +1,9 @@
 PODS:
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
     - PINCache/Core (= 3.0.1-beta.6)
@@ -23,21 +28,24 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - IGListKit
   - Texture
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - IGListKit
     - PINCache
     - PINOperation
     - PINRemoteImage
     - Texture
 
 SPEC CHECKSUMS:
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
 
-PODFILE CHECKSUM: ba0df523be146e3bf3130ae299a98dfa6edbd900
+PODFILE CHECKSUM: c889b3b85fdb88b3809af0b25158461a4007e5fc
 
 COCOAPODS: 1.5.3

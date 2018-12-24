@@ -22,11 +22,11 @@
         [self.node addSubnode:_scrollNode];
         _scrollNode.backgroundColor = UIColor.blueColor;
         _scrollNode.automaticallyManagesContentSize = YES;
-//        _scrollNode.layoutSpecBlock = ^ASLayoutSpec * _Nonnull(__kindof ASDisplayNode * _Nonnull node, ASSizeRange constrainedSize) {
-//            ASStackLayoutSpec *stack = [ASStackLayoutSpec verticalStackLayoutSpec];
-//
-//            return stack;
-//        };
+        _scrollNode.layoutSpecBlock = ^ASLayoutSpec * _Nonnull(__kindof ASDisplayNode * _Nonnull node, ASSizeRange constrainedSize) {
+            ASStackLayoutSpec *stack = [ASStackLayoutSpec verticalStackLayoutSpec];
+
+            return stack;
+        };
         __weak __typeof(self) weakself = self;
         self.node.layoutSpecBlock = ^ASLayoutSpec * _Nonnull(__kindof ASDisplayNode * _Nonnull node, ASSizeRange constrainedSize) {
             ASWrapperLayoutSpec * layoutSpec = [ASWrapperLayoutSpec wrapperWithLayoutElement:weakself.scrollNode];

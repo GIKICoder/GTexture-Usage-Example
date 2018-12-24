@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GTextureNodeController.h"
+#import "ZYFeedListController.h"
 @interface ViewController ()<ASTableDelegate,ASTableDataSource>
 @property (nonatomic, strong) ASTableNode * tableNode;
 @property (nonatomic, strong) NSArray * tableDatas;
@@ -21,7 +22,8 @@
 {
     self = [super initWithNode:[ASTableNode new]];
     if (self) {
-        self.tableDatas = @[@"Texture Node Container"];
+        self.tableDatas = @[@"Texture Node Container",
+                            @"ZYList"];
     }
     return self;
 }
@@ -95,6 +97,11 @@
     [tableNode deselectRowAtIndexPath:indexPath animated:YES];
     NSString * title = self.tableDatas[indexPath.row];
     NSLog(@"Click %@",title);
-    PUSH(GTextureNodeController);
+    if (indexPath.row == 0) {
+        PUSH(GTextureNodeController);
+    } else if (indexPath.row == 1) {
+        PUSH(ZYFeedListController);
+    }
+    
 }
 @end
