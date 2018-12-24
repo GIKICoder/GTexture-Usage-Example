@@ -164,6 +164,19 @@ NSString *_Nullable ZYResponseToJSON(ZYResponse *welcome, NSStringEncoding encod
 }
 
 @implementation ZYResponse
+
+#pragma mark - IGListDiffable
+
+- (id<NSObject>)diffIdentifier
+{
+    return self;
+}
+
+- (BOOL)isEqualToDiffableObject:(nullable id<IGListDiffable>)object
+{
+    return self == object;
+}
+
 + (NSDictionary<NSString *, NSString *> *)properties
 {
     static NSDictionary<NSString *, NSString *> *properties;

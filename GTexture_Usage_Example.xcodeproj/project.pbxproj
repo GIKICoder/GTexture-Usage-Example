@@ -19,6 +19,7 @@
 		2B924DC721D0D74600AD92B0 /* ZYFeedMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */; };
 		2B924DCB21D0D77500AD92B0 /* zydata.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DCA21D0D77500AD92B0 /* zydata.json */; };
 		2B924DCF21D0D89100AD92B0 /* ZYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B924DCE21D0D89100AD92B0 /* ZYResponse.m */; };
+		2B924DD221D0F92800AD92B0 /* ZYFeedListSectionAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B924DD121D0F92800AD92B0 /* ZYFeedListSectionAdapter.m */; };
 		2BB9460D21D0CD17006FC54B /* ZYASBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9460C21D0CD17006FC54B /* ZYASBaseController.m */; };
 		2BB9461021D0CD44006FC54B /* ZYFeedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9460F21D0CD44006FC54B /* ZYFeedListController.m */; };
 		64D9ECED42B0BD8B551AA35F /* libPods-GTexture_Usage_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F952F967DB05AEBAA227B6D4 /* libPods-GTexture_Usage_Example.a */; };
@@ -67,6 +68,8 @@
 		2B924DCA21D0D77500AD92B0 /* zydata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata.json; sourceTree = "<group>"; };
 		2B924DCD21D0D89100AD92B0 /* ZYResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYResponse.h; sourceTree = "<group>"; };
 		2B924DCE21D0D89100AD92B0 /* ZYResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYResponse.m; sourceTree = "<group>"; };
+		2B924DD021D0F92800AD92B0 /* ZYFeedListSectionAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeedListSectionAdapter.h; sourceTree = "<group>"; };
+		2B924DD121D0F92800AD92B0 /* ZYFeedListSectionAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeedListSectionAdapter.m; sourceTree = "<group>"; };
 		2BB9460B21D0CD17006FC54B /* ZYASBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYASBaseController.h; sourceTree = "<group>"; };
 		2BB9460C21D0CD17006FC54B /* ZYASBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYASBaseController.m; sourceTree = "<group>"; };
 		2BB9460E21D0CD44006FC54B /* ZYFeedListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeedListController.h; sourceTree = "<group>"; };
@@ -209,15 +212,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		2B924DD321D0FA4900AD92B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2BB9460A21D0CCEB006FC54B /* ZYFeedList */ = {
 			isa = PBXGroup;
 			children = (
+				2B924DD321D0FA4900AD92B0 /* Views */,
 				2B924DCC21D0D87B00AD92B0 /* Model */,
 				2B924DC521D0D73100AD92B0 /* Resource */,
 				2BB9460B21D0CD17006FC54B /* ZYASBaseController.h */,
 				2BB9460C21D0CD17006FC54B /* ZYASBaseController.m */,
 				2BB9460E21D0CD44006FC54B /* ZYFeedListController.h */,
 				2BB9460F21D0CD44006FC54B /* ZYFeedListController.m */,
+				2B924DD021D0F92800AD92B0 /* ZYFeedListSectionAdapter.h */,
+				2B924DD121D0F92800AD92B0 /* ZYFeedListSectionAdapter.m */,
 			);
 			path = ZYFeedList;
 			sourceTree = "<group>";
@@ -430,6 +443,7 @@
 				2B6C61CB21CF725800EB51D9 /* GTextureNodeController.m in Sources */,
 				2B23787D21CA1EE2001AF262 /* main.m in Sources */,
 				2B23786F21CA1EE1001AF262 /* AppDelegate.m in Sources */,
+				2B924DD221D0F92800AD92B0 /* ZYFeedListSectionAdapter.m in Sources */,
 				2B6C61CE21CFC06800EB51D9 /* GEditableTextNodeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

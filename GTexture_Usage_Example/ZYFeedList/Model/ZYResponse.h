@@ -4,7 +4,7 @@
 //   ZYResponse *welcome = [ZYResponse fromJSON:json encoding:NSUTF8Encoding error:&error];
 //   https://app.quicktype.io/
 #import <Foundation/Foundation.h>
-
+#import <IGListKit/IGListKit.h>
 @class ZYResponse;
 @class ZYData;
 @class ZYList;
@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Object interfaces
 
-@interface ZYResponse : NSObject
+@interface ZYResponse : NSObject<IGListDiffable>
 @property (nonatomic, assign) NSInteger ret;
 @property (nonatomic, strong) ZYData *data;
 
