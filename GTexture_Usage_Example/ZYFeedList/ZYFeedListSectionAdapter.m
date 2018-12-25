@@ -8,6 +8,7 @@
 
 #import "ZYFeedListSectionAdapter.h"
 #import "ZYResponse.h"
+#import "ZYFeedHeaderCell.h"
 @interface ZYFeedListSectionAdapter ()
 @property (nonatomic, strong) NSArray * datas;
 @end
@@ -48,14 +49,8 @@
     id object = self.datas[index];
     ASCellNode * (^cellNodeBlock)(void) = nil;
     cellNodeBlock = ^{
-        NSDictionary *textAttributes = @{
-                                         NSFontAttributeName: [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline],
-                                         NSForegroundColorAttributeName: [UIColor grayColor]
-                                         };
-        UIEdgeInsets textInsets = UIEdgeInsetsMake(11.0, 0, 11.0, 0);
-        ASTextCellNode *textCellNode = [[ASTextCellNode alloc] initWithAttributes:textAttributes insets:textInsets];
-        textCellNode.text = [NSString stringWithFormat:@"cellindex-%ld",index];
-        return textCellNode;
+        ZYFeedHeaderCell * header = [[ZYFeedHeaderCell alloc] initWithZYObject:object];
+        return header;
     };
     return cellNodeBlock;
 }

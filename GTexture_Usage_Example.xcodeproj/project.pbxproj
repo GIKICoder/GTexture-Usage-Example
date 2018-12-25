@@ -16,6 +16,19 @@
 		2B23789221CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23789121CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m */; };
 		2B6C61CB21CF725800EB51D9 /* GTextureNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C61CA21CF725800EB51D9 /* GTextureNodeController.m */; };
 		2B6C61CE21CFC06800EB51D9 /* GEditableTextNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C61CD21CFC06800EB51D9 /* GEditableTextNodeController.m */; };
+		2B6F9F3D21D222A0006F4491 /* ZYBaseFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F3C21D222A0006F4491 /* ZYBaseFeedCell.m */; };
+		2B6F9F4021D222D6006F4491 /* ZYFeedHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F3F21D222D6006F4491 /* ZYFeedHeaderCell.m */; };
+		2B6F9F5A21D229EE006F4491 /* GCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4221D229EE006F4491 /* GCommonUtils.m */; };
+		2B6F9F5B21D229EE006F4491 /* UIColor+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4521D229EE006F4491 /* UIColor+GUtils.m */; };
+		2B6F9F5C21D229EE006F4491 /* UIView+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4721D229EE006F4491 /* UIView+GUtils.m */; };
+		2B6F9F5D21D229EE006F4491 /* GSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4821D229EE006F4491 /* GSafeArray.m */; };
+		2B6F9F5E21D229EE006F4491 /* NSData+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4A21D229EE006F4491 /* NSData+GUtils.m */; };
+		2B6F9F5F21D229EE006F4491 /* NSObject+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4B21D229EE006F4491 /* NSObject+GUtils.m */; };
+		2B6F9F6021D229EE006F4491 /* UIViewController+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4E21D229EE006F4491 /* UIViewController+GUtils.m */; };
+		2B6F9F6121D229EE006F4491 /* NSString+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4F21D229EE006F4491 /* NSString+GUtils.m */; };
+		2B6F9F6221D229EE006F4491 /* GSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F5121D229EE006F4491 /* GSafeDictionary.m */; };
+		2B6F9F6321D229EE006F4491 /* UIImage+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F5621D229EE006F4491 /* UIImage+GUtils.m */; };
+		2B6F9F6421D229EE006F4491 /* GPinyinTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F5821D229EE006F4491 /* GPinyinTranslate.m */; };
 		2B924DC721D0D74600AD92B0 /* ZYFeedMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */; };
 		2B924DCB21D0D77500AD92B0 /* zydata.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DCA21D0D77500AD92B0 /* zydata.json */; };
 		2B924DCF21D0D89100AD92B0 /* ZYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B924DCE21D0D89100AD92B0 /* ZYResponse.m */; };
@@ -64,6 +77,34 @@
 		2B6C61CA21CF725800EB51D9 /* GTextureNodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTextureNodeController.m; sourceTree = "<group>"; };
 		2B6C61CC21CFC06800EB51D9 /* GEditableTextNodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEditableTextNodeController.h; sourceTree = "<group>"; };
 		2B6C61CD21CFC06800EB51D9 /* GEditableTextNodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEditableTextNodeController.m; sourceTree = "<group>"; };
+		2B6F9F3B21D222A0006F4491 /* ZYBaseFeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYBaseFeedCell.h; sourceTree = "<group>"; };
+		2B6F9F3C21D222A0006F4491 /* ZYBaseFeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYBaseFeedCell.m; sourceTree = "<group>"; };
+		2B6F9F3E21D222D6006F4491 /* ZYFeedHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeedHeaderCell.h; sourceTree = "<group>"; };
+		2B6F9F3F21D222D6006F4491 /* ZYFeedHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeedHeaderCell.m; sourceTree = "<group>"; };
+		2B6F9F4221D229EE006F4491 /* GCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCommonUtils.m; sourceTree = "<group>"; };
+		2B6F9F4321D229EE006F4491 /* NSString+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GUtils.h"; sourceTree = "<group>"; };
+		2B6F9F4421D229EE006F4491 /* GCommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCommonDefines.h; sourceTree = "<group>"; };
+		2B6F9F4521D229EE006F4491 /* UIColor+GUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GUtils.m"; sourceTree = "<group>"; };
+		2B6F9F4621D229EE006F4491 /* GSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSafeDictionary.h; sourceTree = "<group>"; };
+		2B6F9F4721D229EE006F4491 /* UIView+GUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GUtils.m"; sourceTree = "<group>"; };
+		2B6F9F4821D229EE006F4491 /* GSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSafeArray.m; sourceTree = "<group>"; };
+		2B6F9F4921D229EE006F4491 /* GCGDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCGDefines.h; sourceTree = "<group>"; };
+		2B6F9F4A21D229EE006F4491 /* NSData+GUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GUtils.m"; sourceTree = "<group>"; };
+		2B6F9F4B21D229EE006F4491 /* NSObject+GUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GUtils.m"; sourceTree = "<group>"; };
+		2B6F9F4C21D229EE006F4491 /* GPinyinTranslate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPinyinTranslate.h; sourceTree = "<group>"; };
+		2B6F9F4D21D229EE006F4491 /* UIImage+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GUtils.h"; sourceTree = "<group>"; };
+		2B6F9F4E21D229EE006F4491 /* UIViewController+GUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GUtils.m"; sourceTree = "<group>"; };
+		2B6F9F4F21D229EE006F4491 /* NSString+GUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GUtils.m"; sourceTree = "<group>"; };
+		2B6F9F5021D229EE006F4491 /* GCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCommonUtils.h; sourceTree = "<group>"; };
+		2B6F9F5121D229EE006F4491 /* GSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSafeDictionary.m; sourceTree = "<group>"; };
+		2B6F9F5221D229EE006F4491 /* UIColor+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GUtils.h"; sourceTree = "<group>"; };
+		2B6F9F5321D229EE006F4491 /* NSData+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GUtils.h"; sourceTree = "<group>"; };
+		2B6F9F5421D229EE006F4491 /* GSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSafeArray.h; sourceTree = "<group>"; };
+		2B6F9F5521D229EE006F4491 /* UIView+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GUtils.h"; sourceTree = "<group>"; };
+		2B6F9F5621D229EE006F4491 /* UIImage+GUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GUtils.m"; sourceTree = "<group>"; };
+		2B6F9F5721D229EE006F4491 /* UIViewController+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GUtils.h"; sourceTree = "<group>"; };
+		2B6F9F5821D229EE006F4491 /* GPinyinTranslate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPinyinTranslate.m; sourceTree = "<group>"; };
+		2B6F9F5921D229EE006F4491 /* NSObject+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GUtils.h"; sourceTree = "<group>"; };
 		2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZYFeedMedia.xcassets; sourceTree = "<group>"; };
 		2B924DCA21D0D77500AD92B0 /* zydata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata.json; sourceTree = "<group>"; };
 		2B924DCD21D0D89100AD92B0 /* ZYResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYResponse.h; sourceTree = "<group>"; };
@@ -155,6 +196,7 @@
 				2B23786E21CA1EE1001AF262 /* AppDelegate.m */,
 				2B23787021CA1EE1001AF262 /* ViewController.h */,
 				2B23787121CA1EE1001AF262 /* ViewController.m */,
+				2B6F9F4121D229EE006F4491 /* GUtils */,
 				2BB9460A21D0CCEB006FC54B /* ZYFeedList */,
 				2B6C61C821CF71E800EB51D9 /* Texture_Node */,
 				2B23787621CA1EE2001AF262 /* Assets.xcassets */,
@@ -194,6 +236,37 @@
 			path = Texture_Node;
 			sourceTree = "<group>";
 		};
+		2B6F9F4121D229EE006F4491 /* GUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2B6F9F4921D229EE006F4491 /* GCGDefines.h */,
+				2B6F9F4421D229EE006F4491 /* GCommonDefines.h */,
+				2B6F9F5021D229EE006F4491 /* GCommonUtils.h */,
+				2B6F9F4221D229EE006F4491 /* GCommonUtils.m */,
+				2B6F9F4C21D229EE006F4491 /* GPinyinTranslate.h */,
+				2B6F9F5821D229EE006F4491 /* GPinyinTranslate.m */,
+				2B6F9F5421D229EE006F4491 /* GSafeArray.h */,
+				2B6F9F4821D229EE006F4491 /* GSafeArray.m */,
+				2B6F9F4621D229EE006F4491 /* GSafeDictionary.h */,
+				2B6F9F5121D229EE006F4491 /* GSafeDictionary.m */,
+				2B6F9F5321D229EE006F4491 /* NSData+GUtils.h */,
+				2B6F9F4A21D229EE006F4491 /* NSData+GUtils.m */,
+				2B6F9F5921D229EE006F4491 /* NSObject+GUtils.h */,
+				2B6F9F4B21D229EE006F4491 /* NSObject+GUtils.m */,
+				2B6F9F4321D229EE006F4491 /* NSString+GUtils.h */,
+				2B6F9F4F21D229EE006F4491 /* NSString+GUtils.m */,
+				2B6F9F5221D229EE006F4491 /* UIColor+GUtils.h */,
+				2B6F9F4521D229EE006F4491 /* UIColor+GUtils.m */,
+				2B6F9F4D21D229EE006F4491 /* UIImage+GUtils.h */,
+				2B6F9F5621D229EE006F4491 /* UIImage+GUtils.m */,
+				2B6F9F5521D229EE006F4491 /* UIView+GUtils.h */,
+				2B6F9F4721D229EE006F4491 /* UIView+GUtils.m */,
+				2B6F9F5721D229EE006F4491 /* UIViewController+GUtils.h */,
+				2B6F9F4E21D229EE006F4491 /* UIViewController+GUtils.m */,
+			);
+			path = GUtils;
+			sourceTree = "<group>";
+		};
 		2B924DC521D0D73100AD92B0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +288,10 @@
 		2B924DD321D0FA4900AD92B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2B6F9F3B21D222A0006F4491 /* ZYBaseFeedCell.h */,
+				2B6F9F3C21D222A0006F4491 /* ZYBaseFeedCell.m */,
+				2B6F9F3E21D222D6006F4491 /* ZYFeedHeaderCell.h */,
+				2B6F9F3F21D222D6006F4491 /* ZYFeedHeaderCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -436,13 +513,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6F9F6221D229EE006F4491 /* GSafeDictionary.m in Sources */,
 				2B23787221CA1EE1001AF262 /* ViewController.m in Sources */,
+				2B6F9F5B21D229EE006F4491 /* UIColor+GUtils.m in Sources */,
 				2B924DCF21D0D89100AD92B0 /* ZYResponse.m in Sources */,
+				2B6F9F6121D229EE006F4491 /* NSString+GUtils.m in Sources */,
+				2B6F9F5D21D229EE006F4491 /* GSafeArray.m in Sources */,
 				2BB9460D21D0CD17006FC54B /* ZYASBaseController.m in Sources */,
+				2B6F9F5C21D229EE006F4491 /* UIView+GUtils.m in Sources */,
 				2BB9461021D0CD44006FC54B /* ZYFeedListController.m in Sources */,
+				2B6F9F5F21D229EE006F4491 /* NSObject+GUtils.m in Sources */,
+				2B6F9F6021D229EE006F4491 /* UIViewController+GUtils.m in Sources */,
+				2B6F9F6421D229EE006F4491 /* GPinyinTranslate.m in Sources */,
 				2B6C61CB21CF725800EB51D9 /* GTextureNodeController.m in Sources */,
+				2B6F9F5E21D229EE006F4491 /* NSData+GUtils.m in Sources */,
+				2B6F9F6321D229EE006F4491 /* UIImage+GUtils.m in Sources */,
 				2B23787D21CA1EE2001AF262 /* main.m in Sources */,
+				2B6F9F5A21D229EE006F4491 /* GCommonUtils.m in Sources */,
 				2B23786F21CA1EE1001AF262 /* AppDelegate.m in Sources */,
+				2B6F9F4021D222D6006F4491 /* ZYFeedHeaderCell.m in Sources */,
+				2B6F9F3D21D222A0006F4491 /* ZYBaseFeedCell.m in Sources */,
 				2B924DD221D0F92800AD92B0 /* ZYFeedListSectionAdapter.m in Sources */,
 				2B6C61CE21CFC06800EB51D9 /* GEditableTextNodeController.m in Sources */,
 			);
