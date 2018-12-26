@@ -9,6 +9,8 @@
 #import "ZYFeedListTableController.h"
 #import "ZYResponse.h"
 #import "ZYFeedHeaderCell.h"
+#import "ZYFeedViewModel.h"
+#import "ZYFeedContainerCell.h"
 @interface ZYFeedListTableController ()<ASTableDelegate,ASTableDataSource>
 @property (nonatomic, strong) ASTableNode * tableNode;
 @property (nonatomic, strong) NSArray * tableDatas;
@@ -46,7 +48,7 @@
 - (void)loadData
 {
     // 获取文件路径
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"zydata" ofType:@"json"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"zydata3" ofType:@"json"];
     // 将文件数据化
     NSData *data = [[NSData alloc] initWithContentsOfFile:path];
     NSString * string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
@@ -99,8 +101,11 @@
     id object = self.tableDatas[indexPath.row];
     ASCellNode * (^cellNodeBlock)(void) = nil;
     cellNodeBlock = ^{
-        ZYFeedHeaderCell * header = [[ZYFeedHeaderCell alloc] initWithZYObject:object];
-        return header;
+        ZYFeedViewModel * viewModel = [ZYFeedViewModel createFeedViewModel:object extra:nil];
+//        ZYFeedHeaderCell * header = [[ZYFeedHeaderCell alloc] initWithZYObject:object];
+//        return header;
+        ZYFeedContainerCell * cell = [[ZYFeedContainerCell alloc] initWithZYObject:viewModel];
+        return cell;
     };
     return cellNodeBlock;
 }

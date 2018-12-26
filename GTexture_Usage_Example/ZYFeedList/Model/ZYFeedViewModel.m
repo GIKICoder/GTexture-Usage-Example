@@ -32,9 +32,13 @@
 {
     NSMutableArray * arrayM = [NSMutableArray array];
     [arrayM addObject:@"ZYFeedHeaderNode"];
-    [arrayM addObject:@"ZYFeedTextNode"];
-    [arrayM addObject:@"ZYFeedTagNode"];
-    if (self.dataObject.videos.count>0) {
+    if (self.dataObject.content.length > 0) {
+        [arrayM addObject:@"ZYFeedTextNode"];
+    }
+    if (self.dataObject.topic.topic.length > 0) {
+        [arrayM addObject:@"ZYFeedTagNode"];
+    }
+    if (self.dataObject.videos.allValues.count>0) {
         [arrayM addObject:@"ZYFeedVideoNode"];
     } else if (self.dataObject.imgs.count > 0) {
         [arrayM addObject:@"ZYFeedPhotoWallNode"];

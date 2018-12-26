@@ -75,4 +75,9 @@
 {
     NSLog(@"close Close");
 }
+
++ (CGFloat)customNodeHeight
+{
+    return 0;
+}
 @end

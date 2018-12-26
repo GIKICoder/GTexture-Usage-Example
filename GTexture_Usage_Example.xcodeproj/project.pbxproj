@@ -30,6 +30,8 @@
 		2B6F9F6321D229EE006F4491 /* UIImage+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F5621D229EE006F4491 /* UIImage+GUtils.m */; };
 		2B6F9F6421D229EE006F4491 /* GPinyinTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F5821D229EE006F4491 /* GPinyinTranslate.m */; };
 		2B6F9F6E21D24FF5006F4491 /* ZYFeedListTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F6D21D24FF5006F4491 /* ZYFeedListTableController.m */; };
+		2B7AB9FC21D3CE9500FC3F84 /* zydata2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B7AB9FB21D3CE9500FC3F84 /* zydata2.json */; };
+		2B7AB9FE21D3CF0E00FC3F84 /* zydata3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B7AB9FD21D3CF0E00FC3F84 /* zydata3.json */; };
 		2B924DC721D0D74600AD92B0 /* ZYFeedMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */; };
 		2B924DCB21D0D77500AD92B0 /* zydata.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DCA21D0D77500AD92B0 /* zydata.json */; };
 		2B924DCF21D0D89100AD92B0 /* ZYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B924DCE21D0D89100AD92B0 /* ZYResponse.m */; };
@@ -118,6 +120,8 @@
 		2B6F9F5921D229EE006F4491 /* NSObject+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GUtils.h"; sourceTree = "<group>"; };
 		2B6F9F6C21D24FF5006F4491 /* ZYFeedListTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeedListTableController.h; sourceTree = "<group>"; };
 		2B6F9F6D21D24FF5006F4491 /* ZYFeedListTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeedListTableController.m; sourceTree = "<group>"; };
+		2B7AB9FB21D3CE9500FC3F84 /* zydata2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata2.json; sourceTree = "<group>"; };
+		2B7AB9FD21D3CF0E00FC3F84 /* zydata3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata3.json; sourceTree = "<group>"; };
 		2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZYFeedMedia.xcassets; sourceTree = "<group>"; };
 		2B924DCA21D0D77500AD92B0 /* zydata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata.json; sourceTree = "<group>"; };
 		2B924DCD21D0D89100AD92B0 /* ZYResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYResponse.h; sourceTree = "<group>"; };
@@ -303,6 +307,8 @@
 		2B924DC521D0D73100AD92B0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				2B7AB9FD21D3CF0E00FC3F84 /* zydata3.json */,
+				2B7AB9FB21D3CE9500FC3F84 /* zydata2.json */,
 				2B924DCA21D0D77500AD92B0 /* zydata.json */,
 				2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */,
 			);
@@ -495,6 +501,8 @@
 				2B23787A21CA1EE2001AF262 /* LaunchScreen.storyboard in Resources */,
 				2B23787721CA1EE2001AF262 /* Assets.xcassets in Resources */,
 				2B924DC721D0D74600AD92B0 /* ZYFeedMedia.xcassets in Resources */,
+				2B7AB9FE21D3CF0E00FC3F84 /* zydata3.json in Resources */,
+				2B7AB9FC21D3CE9500FC3F84 /* zydata2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,7 +781,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RCF9CM736N;
+				DEVELOPMENT_TEAM = LSND274XQ9;
 				INFOPLIST_FILE = GTexture_Usage_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -791,7 +799,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RCF9CM736N;
+				DEVELOPMENT_TEAM = LSND274XQ9;
 				INFOPLIST_FILE = GTexture_Usage_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

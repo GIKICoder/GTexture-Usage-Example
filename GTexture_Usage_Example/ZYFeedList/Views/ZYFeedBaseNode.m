@@ -15,4 +15,8 @@
     return [super init];
 }
 
++ (CGFloat)customNodeHeight
+{
+    return 0;
+}
 @end

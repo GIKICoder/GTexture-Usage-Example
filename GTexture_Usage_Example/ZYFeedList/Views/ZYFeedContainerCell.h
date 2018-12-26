@@ -7,7 +7,7 @@
 //
 
 #import "ZYBaseFeedCell.h"
-
+#import "ZYFeedViewModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ZYFeedContainerCell : ZYBaseFeedCell
