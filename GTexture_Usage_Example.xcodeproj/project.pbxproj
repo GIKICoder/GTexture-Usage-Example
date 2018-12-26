@@ -29,6 +29,7 @@
 		2B6F9F6221D229EE006F4491 /* GSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F5121D229EE006F4491 /* GSafeDictionary.m */; };
 		2B6F9F6321D229EE006F4491 /* UIImage+GUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F5621D229EE006F4491 /* UIImage+GUtils.m */; };
 		2B6F9F6421D229EE006F4491 /* GPinyinTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F5821D229EE006F4491 /* GPinyinTranslate.m */; };
+		2B6F9F6E21D24FF5006F4491 /* ZYFeedListTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F6D21D24FF5006F4491 /* ZYFeedListTableController.m */; };
 		2B924DC721D0D74600AD92B0 /* ZYFeedMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */; };
 		2B924DCB21D0D77500AD92B0 /* zydata.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DCA21D0D77500AD92B0 /* zydata.json */; };
 		2B924DCF21D0D89100AD92B0 /* ZYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B924DCE21D0D89100AD92B0 /* ZYResponse.m */; };
@@ -105,6 +106,8 @@
 		2B6F9F5721D229EE006F4491 /* UIViewController+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GUtils.h"; sourceTree = "<group>"; };
 		2B6F9F5821D229EE006F4491 /* GPinyinTranslate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPinyinTranslate.m; sourceTree = "<group>"; };
 		2B6F9F5921D229EE006F4491 /* NSObject+GUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GUtils.h"; sourceTree = "<group>"; };
+		2B6F9F6C21D24FF5006F4491 /* ZYFeedListTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeedListTableController.h; sourceTree = "<group>"; };
+		2B6F9F6D21D24FF5006F4491 /* ZYFeedListTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeedListTableController.m; sourceTree = "<group>"; };
 		2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZYFeedMedia.xcassets; sourceTree = "<group>"; };
 		2B924DCA21D0D77500AD92B0 /* zydata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata.json; sourceTree = "<group>"; };
 		2B924DCD21D0D89100AD92B0 /* ZYResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYResponse.h; sourceTree = "<group>"; };
@@ -308,6 +311,8 @@
 				2BB9460F21D0CD44006FC54B /* ZYFeedListController.m */,
 				2B924DD021D0F92800AD92B0 /* ZYFeedListSectionAdapter.h */,
 				2B924DD121D0F92800AD92B0 /* ZYFeedListSectionAdapter.m */,
+				2B6F9F6C21D24FF5006F4491 /* ZYFeedListTableController.h */,
+				2B6F9F6D21D24FF5006F4491 /* ZYFeedListTableController.m */,
 			);
 			path = ZYFeedList;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 				2B6F9F5C21D229EE006F4491 /* UIView+GUtils.m in Sources */,
 				2BB9461021D0CD44006FC54B /* ZYFeedListController.m in Sources */,
 				2B6F9F5F21D229EE006F4491 /* NSObject+GUtils.m in Sources */,
+				2B6F9F6E21D24FF5006F4491 /* ZYFeedListTableController.m in Sources */,
 				2B6F9F6021D229EE006F4491 /* UIViewController+GUtils.m in Sources */,
 				2B6F9F6421D229EE006F4491 /* GPinyinTranslate.m in Sources */,
 				2B6C61CB21CF725800EB51D9 /* GTextureNodeController.m in Sources */,

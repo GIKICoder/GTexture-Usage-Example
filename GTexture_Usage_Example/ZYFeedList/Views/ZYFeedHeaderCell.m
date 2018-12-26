@@ -21,6 +21,7 @@
 @interface ZYFeedHeaderCell ()
 {
     ZYList * _listObject;
+    ASDisplayNode * _contentNode;
     ASNetworkImageNode * _avatarNode;
     ASTextNode * _nameNode;
     ASImageNode * _tagNode;
@@ -36,9 +37,12 @@
     if(self) {
         self.automaticallyManagesSubnodes = YES;
         _listObject = object;
+        _contentNode = [ASDisplayNode new];
+        
         /// 头像
         _avatarNode = [[ASNetworkImageNode alloc] init];
         _avatarNode.layerBacked = YES;
+     
         NSString * avatarUrlStr = [object.member.avatarUrls.origin.urls firstObject];
         _avatarNode.URL = [NSURL URLWithString:avatarUrlStr];
         [_avatarNode setImageModificationBlock:^UIImage * _Nullable(UIImage * _Nonnull image) {
@@ -46,9 +50,11 @@
             return [image makeCircularImageWithSize:avatarSize];
         }];
         /// 昵称
+       
         _nameNode = [[ASTextNode alloc] init];
         _nameNode.layerBacked = YES;
         _nameNode.attributedText =  [object.member.name attributedWithFontSize:16 color:[UIColor g_colorWithHex:@"7c748d"]];
+//        _nameNode.hidden = YES;
         /// 用户勋章
         _tagNode = [[ASImageNode alloc] init];
         _tagNode.image = [UIImage imageNamed:@"avatar_tag"];
@@ -62,64 +68,26 @@
     return self;
 }
 
+- (void)didLoad
+{
+    [super didLoad];
+//    _avatarNode.view.backgroundColor = [UIColor redColor];
+}
+
 - (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize
 {
-    ASStackLayoutSpec *headerStack = [ASStackLayoutSpec horizontalStackLayoutSpec];
-    headerStack.direction = ASStackLayoutDirectionHorizontal;
-    headerStack.spacing = 15;
+//    self.style.preferredSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, 110);
     _avatarNode.style.preferredSize = CGSizeMake(kAvatarWidth, kAvatarWidth);
-    _tagNode.style.preferredSize = CGSizeMake(26, 26);
-    _closeNode.style.preferredSize = CGSizeMake(23, 23);
-    headerStack.children = @[_avatarNode,_nameNode,_tagNode,_closeNode];
-    ASStackLayoutSpec *verticalStack = [ASStackLayoutSpec verticalStackLayoutSpec];
-    verticalStack.alignItems = ASStackLayoutAlignItemsCenter;
-    verticalStack.children = @[[ASRatioLayoutSpec ratioLayoutSpecWithRatio:0.2 child:headerStack]];
-    return verticalStack;
-    
-    /*
-    NSMutableArray *headerChildren = [NSMutableArray array];
-    NSMutableArray *verticalChildren = [NSMutableArray array];
-    // Header stack
-    ASStackLayoutSpec *headerStack = [ASStackLayoutSpec horizontalStackLayoutSpec];
-    headerStack.alignItems = ASStackLayoutAlignItemsCenter;
-    
-    // Avatar Image, with inset - first thing in the header stack.
-        _avatarNode.style.preferredSize = CGSizeMake(kAvatarWidth, kAvatarWidth);
-        _tagNode.style.preferredSize = CGSizeMake(26, 26);
-        _closeNode.style.preferredSize = CGSizeMake(23, 23);
-    [headerChildren addObject:[ASInsetLayoutSpec insetLayoutSpecWithInsets:InsetForAvatar child:_avatarNode]];
-    
-    // User Name and Photo Location stack is next
-    ASStackLayoutSpec *userPhotoLocationStack = [ASStackLayoutSpec verticalStackLayoutSpec];
-    userPhotoLocationStack.style.flexShrink = 1.0;
-    [headerChildren addObject:userPhotoLocationStack];
-    
-    // Setup the inside of the User Name and Photo Location stack.
-    _nameNode.style.flexShrink = 1.0;
-    [userPhotoLocationStack setChildren:@[_nameNode]];
-    
-    if (_closeNode) {
-        _closeNode.style.flexShrink = 1.0;
-        [userPhotoLocationStack setChildren:[userPhotoLocationStack.children arrayByAddingObject:_closeNode]];
-    }
-    
-    // Add a spacer to allow a flexible space between the User Name / Location stack, and the Timestamp.
-    ASLayoutSpec *spacer = [ASLayoutSpec new];
-    spacer.style.flexGrow = 1.0;
-    [headerChildren addObject:spacer];
+    _tagNode.style.preferredSize = CGSizeMake(16, 16);
+    _closeNode.style.preferredSize = CGSizeMake(16, 16);
 
-    // Add all of the above items to the horizontal header stack
-    headerStack.children = headerChildren;
-    
-
-    // Main Vertical Stack: contains header, large main photo with fixed aspect ratio, and footer.
-    ASStackLayoutSpec *verticalStack = [ASStackLayoutSpec verticalStackLayoutSpec];
-    
-    [verticalChildren addObject:[ASRatioLayoutSpec ratioLayoutSpecWithRatio :1.0  child:headerStack]];
-    verticalStack.children = verticalChildren;
-    
-    return verticalStack;
-     */
+    ASStackLayoutSpec * avatarStack = [ASStackLayoutSpec horizontalStackLayoutSpec];
+    avatarStack.children = @[_avatarNode,_nameNode,_tagNode];
+    avatarStack.alignItems = ASStackLayoutAlignItemsCenter;
+    avatarStack.spacing = 10;
+    ASStackLayoutSpec * headerStack = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:50 justifyContent:ASStackLayoutJustifyContentSpaceBetween alignItems:ASStackLayoutAlignItemsCenter children:@[avatarStack,_closeNode]];
+    _contentNode.backgroundColor = [UIColor redColor];
+    return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(10, 10, 10, 10) child:headerStack];
 }
 
 

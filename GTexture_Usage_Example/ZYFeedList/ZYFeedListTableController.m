@@ -1,49 +1,61 @@
 //
-//  ViewController.m
+//  ZYFeedListTableController.m
 //  GTexture_Usage_Example
 //
-//  Created by GIKI on 2018/12/19.
+//  Created by GIKI on 2018/12/25.
 //  Copyright © 2018 GIKI. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "GTextureNodeController.h"
-#import "ZYFeedListController.h"
 #import "ZYFeedListTableController.h"
-@interface ViewController ()<ASTableDelegate,ASTableDataSource>
+#import "ZYResponse.h"
+#import "ZYFeedHeaderCell.h"
+@interface ZYFeedListTableController ()<ASTableDelegate,ASTableDataSource>
 @property (nonatomic, strong) ASTableNode * tableNode;
 @property (nonatomic, strong) NSArray * tableDatas;
 @end
 
-#define PUSH(clazz) [self.navigationController pushViewController:[clazz new] animated:YES];
-
-@implementation ViewController
+@implementation ZYFeedListTableController
 
 - (instancetype)init
 {
-    self = [super initWithNode:[ASTableNode new]];
+    _tableNode = [ASTableNode new];
+    self = [super initWithNode:_tableNode];
     if (self) {
-        self.tableDatas = @[@"Texture Node Container",
-                            @"ZYList",
-                            @"ZYFeedListTable"];
     }
     return self;
 }
 
 - (void)dealloc
 {
-    self.node.delegate = nil;
-    self.node.dataSource = nil;
+    self.tableNode.delegate = nil;
+    self.tableNode.dataSource = nil;
 }
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.node.delegate = self;
-    self.node.dataSource = self;
+    self.tableNode.delegate = self;
+    self.tableNode.dataSource = self;
     self.title = @"Texture";
-    self.node.view.rowHeight = 50;
+    [self loadData];
+}
+
+#pragma mark - loadData
+
+- (void)loadData
+{
+    // 获取文件路径
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"zydata" ofType:@"json"];
+    // 将文件数据化
+    NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+    NSString * string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    NSError *error;
+    ZYResponse *response = [ZYResponse fromJSON:string encoding:(NSUTF8StringEncoding) error:&error];
+    self.tableDatas = response.data.list;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.tableNode reloadData];
+    });
 }
 
 #pragma mark - ASTextNode DataSource
@@ -83,29 +95,18 @@
  */
 - (ASCellNodeBlock)tableNode:(ASTableNode *)tableNode nodeBlockForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString * title = self.tableDatas[indexPath.row];
-    return ^{
-        ASTextCellNode *textCellNode = [ASTextCellNode new];
-        textCellNode.text = title;
-        return textCellNode;
-    };
-    return  nil;
-}
 
-#pragma mark - ASTableNodeDelegate
+    id object = self.tableDatas[indexPath.row];
+    ASCellNode * (^cellNodeBlock)(void) = nil;
+    cellNodeBlock = ^{
+        ZYFeedHeaderCell * header = [[ZYFeedHeaderCell alloc] initWithZYObject:object];
+        return header;
+    };
+    return cellNodeBlock;
+}
 
 - (void)tableNode:(ASTableNode *)tableNode didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableNode deselectRowAtIndexPath:indexPath animated:YES];
-    NSString * title = self.tableDatas[indexPath.row];
-    NSLog(@"Click %@",title);
-    if (indexPath.row == 0) {
-        PUSH(GTextureNodeController);
-    } else if (indexPath.row == 1) {
-        PUSH(ZYFeedListController);
-    } else if (indexPath.row == 2) {
-        PUSH(ZYFeedListTableController);
-    }
-    
 }
 @end
