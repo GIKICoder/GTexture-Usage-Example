@@ -19,4 +19,9 @@
 {
     return 0;
 }
+
+- (void)dealloc
+{
+    NSLog(@"%@--dealloc",self);
+}
 @end

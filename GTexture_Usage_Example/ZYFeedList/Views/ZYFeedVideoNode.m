@@ -9,7 +9,7 @@
 #import "ZYFeedVideoNode.h"
 
 @interface ZYFeedVideoNode ()
-@property (nonatomic, strong) ASNetworkImageNode * videImgNode;
+@property (nonatomic, strong) ASNetworkImageNode * videoImgNode;
 @property (nonatomic, strong) ASTextNode * playCountNode;
 @property (nonatomic, strong) ASTextNode * barrageNode;
 @property (nonatomic, strong) ASTextNode * timeNode;
@@ -23,18 +23,19 @@
     if (self) {
         self.automaticallyManagesSubnodes = YES;
         
-        _videImgNode = [[ASNetworkImageNode alloc] init];
+        _videoImgNode = [[ASNetworkImageNode alloc] init];
+        _videoImgNode.placeholderColor = GRandomColor;
         NSArray * values = object.videos.allValues;
         ZYVideo * video = [values firstObject];
         NSURL *url = [NSURL URLWithString:video.coverUrls.firstObject];
-        _videImgNode.URL = url;
+        _videoImgNode.URL = url;
     }
     return self;
 }
 
 - (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize
 {
-    _videImgNode.style.preferredSize = CGSizeMake([UIScreen mainScreen].bounds.size.width-20, 303);
-    return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(10, 10, 10, 10) child:_videImgNode];
+    _videoImgNode.style.preferredSize = CGSizeMake([UIScreen mainScreen].bounds.size.width-20, 303);
+    return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(10, 10, 10, 10) child:_videoImgNode];
 }
 @end
