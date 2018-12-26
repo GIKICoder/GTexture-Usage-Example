@@ -1,8 +1,8 @@
 //
-//  ZYBaseFeedCell.h
+//  ZYFeedBaseNode.h
 //  GTexture_Usage_Example
 //
-//  Created by GIKI on 2018/12/25.
+//  Created by GIKI on 2018/12/26.
 //  Copyright © 2018 GIKI. All rights reserved.
 //
 
@@ -13,11 +13,11 @@
 #import "NSString+GUtils.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZYBaseFeedCell : ASCellNode
+@interface ZYFeedBaseNode : ASDisplayNode
 
 @property (nonatomic, strong, readonly) ZYList * listObject;
 
-- (instancetype)initWithZYObject:(ZYList *)object;
+- (instancetype)initWithZYObject:(id)object;
 
 @end
 
