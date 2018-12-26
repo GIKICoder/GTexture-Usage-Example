@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZYFeedBaseNode : ASDisplayNode
 
-@property (nonatomic, strong, readonly) ZYList * listObject;
+@property (nonatomic, strong) ZYList * listObject;
 
 - (instancetype)initWithZYObject:(id)object;
 

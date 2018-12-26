@@ -91,6 +91,11 @@
 }
 
 
+- (void)dealloc
+{
+    NSLog(@"%@--is dealloc",self);
+}
+
 #pragma mark - private Method
 
 - (void)close:(id)sender
