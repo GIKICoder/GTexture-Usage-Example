@@ -33,7 +33,7 @@
             self.nodes = nodesM.copy;
         }
         self.placeholderEnabled = YES;
-        self.placeholderFadeDuration = 0.25;
+        self.placeholderFadeDuration = 2.5;
         
     }
     return self;
@@ -52,5 +52,30 @@
     return spec;
 }
 
-
+- (UIImage *)placeholderImage
+{
+    CGSize size = self.calculatedSize;
+    if (CGSizeEqualToSize(size, CGSizeZero)) {
+        return nil;
+    }
+    
+    UIGraphicsBeginImageContext(size);
+    [[UIColor whiteColor] setFill];
+    [[UIColor colorWithWhite:0.9 alpha:1] setStroke];
+    
+    UIRectFill((CGRect){CGPointZero, size});
+    
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path moveToPoint:CGPointZero];
+    [path addLineToPoint:(CGPoint){size.width, size.height}];
+    [path stroke];
+    
+    [path moveToPoint:(CGPoint){size.width, 0.0}];
+    [path addLineToPoint:(CGPoint){0.0, size.height}];
+    [path stroke];
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
 @end

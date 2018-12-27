@@ -23,10 +23,10 @@
         NSString * topic = [NSString stringWithFormat:@" #%@ ",object.topic.topic];
         NSAttributedString * attrs = [topic attributedWithFontSize:16 color:[UIColor colorWithHex:@"66bcfb"]];
         [_buttonNode setAttributedTitle:attrs forState:UIControlStateNormal];
-        _buttonNode.borderColor = [UIColor colorWithHex:@"66bcfb"].CGColor;
-        _buttonNode.borderWidth = 1/[UIScreen mainScreen].scale;
-        _buttonNode.cornerRoundingType = ASCornerRoundingTypeDefaultSlowCALayer;
-        _buttonNode.cornerRadius = 4;
+//        _buttonNode.borderColor = [UIColor colorWithHex:@"66bcfb"].CGColor;
+//        _buttonNode.borderWidth = 1/[UIScreen mainScreen].scale;
+//        _buttonNode.cornerRoundingType = ASCornerRoundingTypeDefaultSlowCALayer;
+//        _buttonNode.cornerRadius = 4;
     }
     return self;
 }
