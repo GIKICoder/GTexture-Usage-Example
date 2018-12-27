@@ -53,7 +53,7 @@ static char kAssociatedObjectKey_zyImg;
             ASNetworkImageNode * imageNode = [[ASNetworkImageNode alloc] init];
             imageNode.zyImg = obj;
             imageNode.index = idx;
-            imageNode.placeholderColor = GRandomColor;
+//            imageNode.placeholderColor = GRandomColor;
             imageNode.layerBacked = YES;
             NSArray * urls = obj.urls.allValues;
             ZYURLValue * urlValue = urls.firstObject;

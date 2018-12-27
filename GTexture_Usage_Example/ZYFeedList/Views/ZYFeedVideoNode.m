@@ -24,7 +24,7 @@
         self.automaticallyManagesSubnodes = YES;
         
         _videoImgNode = [[ASNetworkImageNode alloc] init];
-        _videoImgNode.placeholderColor = GRandomColor;
+//        _videoImgNode.placeholderColor = GRandomColor;
         NSArray * values = object.videos.allValues;
         ZYVideo * video = [values firstObject];
         NSURL *url = [NSURL URLWithString:video.coverUrls.firstObject];
