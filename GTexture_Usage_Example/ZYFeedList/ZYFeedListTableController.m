@@ -39,6 +39,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.tableNode.delegate = self;
     self.tableNode.dataSource = self;
+    self.tableNode.view.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.title = @"Texture";
     [self loadData];
 }

@@ -32,6 +32,9 @@
             }];
             self.nodes = nodesM.copy;
         }
+        self.placeholderEnabled = YES;
+        self.placeholderFadeDuration = 0.25;
+        
     }
     return self;
 }
