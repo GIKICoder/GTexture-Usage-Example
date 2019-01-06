@@ -18,6 +18,8 @@
 {
     self = [super initWithNode:[ASDisplayNode new]];
     if (self) {
+        
+        
         _scrollNode = [[ASScrollNode alloc] init];
         [self.node addSubnode:_scrollNode];
         _scrollNode.backgroundColor = UIColor.blueColor;
