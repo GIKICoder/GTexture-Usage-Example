@@ -39,9 +39,9 @@
         [arrayM addObject:@"ZYFeedTagNode"];
     }
     if (self.dataObject.videos.allValues.count>0) {
-        [arrayM addObject:@"ZYFeedVideoNode"];
+        [arrayM addObject:@"ZYFeedPhotoCollectionNode"];
     } else if (self.dataObject.imgs.count > 0) {
-        [arrayM addObject:@"ZYFeedPhotoWallNode"];
+        [arrayM addObject:@"ZYFeedPhotoCollectionNode"];
     }
     if (self.dataObject.godReviews.count > 0) {
         [arrayM addObject:@"ZYFeedGodReviewsNode"];

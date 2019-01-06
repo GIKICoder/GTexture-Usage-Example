@@ -14,6 +14,7 @@
 		2B23787D21CA1EE2001AF262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23787C21CA1EE2001AF262 /* main.m */; };
 		2B23788721CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23788621CA1EE2001AF262 /* GTexture_Usage_ExampleTests.m */; };
 		2B23789221CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23789121CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m */; };
+		2B44D09321E1E03000AAD6A1 /* ZYFeedPhotoCollectionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D09221E1E03000AAD6A1 /* ZYFeedPhotoCollectionNode.m */; };
 		2B6C61CB21CF725800EB51D9 /* GTextureNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C61CA21CF725800EB51D9 /* GTextureNodeController.m */; };
 		2B6C61CE21CFC06800EB51D9 /* GEditableTextNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C61CD21CFC06800EB51D9 /* GEditableTextNodeController.m */; };
 		2B6F9F3D21D222A0006F4491 /* ZYBaseFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F3C21D222A0006F4491 /* ZYBaseFeedCell.m */; };
@@ -32,6 +33,8 @@
 		2B6F9F6E21D24FF5006F4491 /* ZYFeedListTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F6D21D24FF5006F4491 /* ZYFeedListTableController.m */; };
 		2B7AB9FC21D3CE9500FC3F84 /* zydata2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B7AB9FB21D3CE9500FC3F84 /* zydata2.json */; };
 		2B7AB9FE21D3CF0E00FC3F84 /* zydata3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B7AB9FD21D3CF0E00FC3F84 /* zydata3.json */; };
+		2B8F677F21E1E59D00A24812 /* ZYFeedMediaNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F677E21E1E59D00A24812 /* ZYFeedMediaNode.m */; };
+		2B8F678221E1E93B00A24812 /* ZYFeedPlayButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F678121E1E93B00A24812 /* ZYFeedPlayButtonNode.m */; };
 		2B924DC721D0D74600AD92B0 /* ZYFeedMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */; };
 		2B924DCB21D0D77500AD92B0 /* zydata.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B924DCA21D0D77500AD92B0 /* zydata.json */; };
 		2B924DCF21D0D89100AD92B0 /* ZYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B924DCE21D0D89100AD92B0 /* ZYResponse.m */; };
@@ -86,6 +89,8 @@
 		2B23788D21CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTexture_Usage_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B23789121CA1EE2001AF262 /* GTexture_Usage_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTexture_Usage_ExampleUITests.m; sourceTree = "<group>"; };
 		2B23789321CA1EE2001AF262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B44D09121E1E03000AAD6A1 /* ZYFeedPhotoCollectionNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeedPhotoCollectionNode.h; sourceTree = "<group>"; };
+		2B44D09221E1E03000AAD6A1 /* ZYFeedPhotoCollectionNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeedPhotoCollectionNode.m; sourceTree = "<group>"; };
 		2B6C61C921CF725800EB51D9 /* GTextureNodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTextureNodeController.h; sourceTree = "<group>"; };
 		2B6C61CA21CF725800EB51D9 /* GTextureNodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTextureNodeController.m; sourceTree = "<group>"; };
 		2B6C61CC21CFC06800EB51D9 /* GEditableTextNodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEditableTextNodeController.h; sourceTree = "<group>"; };
@@ -122,6 +127,10 @@
 		2B6F9F6D21D24FF5006F4491 /* ZYFeedListTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeedListTableController.m; sourceTree = "<group>"; };
 		2B7AB9FB21D3CE9500FC3F84 /* zydata2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata2.json; sourceTree = "<group>"; };
 		2B7AB9FD21D3CF0E00FC3F84 /* zydata3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata3.json; sourceTree = "<group>"; };
+		2B8F677D21E1E59D00A24812 /* ZYFeedMediaNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeedMediaNode.h; sourceTree = "<group>"; };
+		2B8F677E21E1E59D00A24812 /* ZYFeedMediaNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeedMediaNode.m; sourceTree = "<group>"; };
+		2B8F678021E1E93B00A24812 /* ZYFeedPlayButtonNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeedPlayButtonNode.h; sourceTree = "<group>"; };
+		2B8F678121E1E93B00A24812 /* ZYFeedPlayButtonNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeedPlayButtonNode.m; sourceTree = "<group>"; };
 		2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZYFeedMedia.xcassets; sourceTree = "<group>"; };
 		2B924DCA21D0D77500AD92B0 /* zydata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata.json; sourceTree = "<group>"; };
 		2B924DCD21D0D89100AD92B0 /* ZYResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYResponse.h; sourceTree = "<group>"; };
@@ -373,6 +382,12 @@
 				2BB9B44E21D387E20073AD35 /* ZYFeedVideoNode.m */,
 				2BB9B45021D387F70073AD35 /* ZYFeedPhotoWallNode.h */,
 				2BB9B45121D387F70073AD35 /* ZYFeedPhotoWallNode.m */,
+				2B44D09121E1E03000AAD6A1 /* ZYFeedPhotoCollectionNode.h */,
+				2B44D09221E1E03000AAD6A1 /* ZYFeedPhotoCollectionNode.m */,
+				2B8F677D21E1E59D00A24812 /* ZYFeedMediaNode.h */,
+				2B8F677E21E1E59D00A24812 /* ZYFeedMediaNode.m */,
+				2B8F678021E1E93B00A24812 /* ZYFeedPlayButtonNode.h */,
+				2B8F678121E1E93B00A24812 /* ZYFeedPlayButtonNode.m */,
 				2BB9B45321D3882A0073AD35 /* ZYFeedGodReviewsNode.h */,
 				2BB9B45421D3882A0073AD35 /* ZYFeedGodReviewsNode.m */,
 				2BB9B45621D388390073AD35 /* ZYFeedToolBarNode.h */,
@@ -592,6 +607,7 @@
 				2B924DCF21D0D89100AD92B0 /* ZYResponse.m in Sources */,
 				2B6F9F6121D229EE006F4491 /* NSString+GUtils.m in Sources */,
 				2BB9B44C21D387D10073AD35 /* ZYFeedTagNode.m in Sources */,
+				2B8F678221E1E93B00A24812 /* ZYFeedPlayButtonNode.m in Sources */,
 				2B6F9F5D21D229EE006F4491 /* GSafeArray.m in Sources */,
 				2BB9B44621D387760073AD35 /* ZYFeedHeaderNode.m in Sources */,
 				2BB9460D21D0CD17006FC54B /* ZYASBaseController.m in Sources */,
@@ -609,8 +625,10 @@
 				2B6F9F6321D229EE006F4491 /* UIImage+GUtils.m in Sources */,
 				2B23787D21CA1EE2001AF262 /* main.m in Sources */,
 				2B6F9F5A21D229EE006F4491 /* GCommonUtils.m in Sources */,
+				2B8F677F21E1E59D00A24812 /* ZYFeedMediaNode.m in Sources */,
 				2BB9B43C21D380B20073AD35 /* ZYFeedContainerCell.m in Sources */,
 				2BB9B45821D388390073AD35 /* ZYFeedToolBarNode.m in Sources */,
+				2B44D09321E1E03000AAD6A1 /* ZYFeedPhotoCollectionNode.m in Sources */,
 				2B23786F21CA1EE1001AF262 /* AppDelegate.m in Sources */,
 				2B6F9F4021D222D6006F4491 /* ZYFeedHeaderCell.m in Sources */,
 				2B6F9F3D21D222A0006F4491 /* ZYBaseFeedCell.m in Sources */,
