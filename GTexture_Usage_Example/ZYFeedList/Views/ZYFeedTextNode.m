@@ -38,11 +38,11 @@
 
 - (void)textNodePressed:(id)node
 {
-    [self transitionLayoutWithAnimation:YES shouldMeasureAsync:NO measurementCompletion:nil];
+//    [self transitionLayoutWithAnimation:YES shouldMeasureAsync:NO measurementCompletion:nil];
 }
 - (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize
 {
-    _textNode.maximumNumberOfLines = (!self.enabled) ? 0 :5 ;
+//    _textNode.maximumNumberOfLines = (!self.enabled) ? 0 :5 ;
     return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(0, 10, 10, 10) child:_textNode];
 }
 
