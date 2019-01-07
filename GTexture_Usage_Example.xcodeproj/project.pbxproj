@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B19036C21E34F6500F7B8BD /* zydatauser.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19036B21E34F6400F7B8BD /* zydatauser.json */; };
+		2B19036E21E3538000F7B8BD /* zydata4.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19036D21E3538000F7B8BD /* zydata4.json */; };
 		2B23786F21CA1EE1001AF262 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23786E21CA1EE1001AF262 /* AppDelegate.m */; };
 		2B23787221CA1EE1001AF262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23787121CA1EE1001AF262 /* ViewController.m */; };
 		2B23787721CA1EE2001AF262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B23787621CA1EE2001AF262 /* Assets.xcassets */; };
@@ -72,6 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B19036B21E34F6400F7B8BD /* zydatauser.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydatauser.json; sourceTree = "<group>"; };
+		2B19036D21E3538000F7B8BD /* zydata4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zydata4.json; sourceTree = "<group>"; };
 		2B23786A21CA1EE0001AF262 /* GTexture_Usage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTexture_Usage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B23786D21CA1EE0001AF262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B23786E21CA1EE1001AF262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -310,9 +314,11 @@
 		2B924DC521D0D73100AD92B0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				2B19036D21E3538000F7B8BD /* zydata4.json */,
 				2B7AB9FD21D3CF0E00FC3F84 /* zydata3.json */,
 				2B7AB9FB21D3CE9500FC3F84 /* zydata2.json */,
 				2B924DCA21D0D77500AD92B0 /* zydata.json */,
+				2B19036B21E34F6400F7B8BD /* zydatauser.json */,
 				2B924DC621D0D74600AD92B0 /* ZYFeedMedia.xcassets */,
 			);
 			path = Resource;
@@ -507,6 +513,8 @@
 				2B23787721CA1EE2001AF262 /* Assets.xcassets in Resources */,
 				2B924DC721D0D74600AD92B0 /* ZYFeedMedia.xcassets in Resources */,
 				2B7AB9FE21D3CF0E00FC3F84 /* zydata3.json in Resources */,
+				2B19036E21E3538000F7B8BD /* zydata4.json in Resources */,
+				2B19036C21E34F6500F7B8BD /* zydatauser.json in Resources */,
 				2B7AB9FC21D3CE9500FC3F84 /* zydata2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

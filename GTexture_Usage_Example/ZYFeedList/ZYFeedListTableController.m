@@ -49,7 +49,7 @@
 - (void)loadData
 {
     // 获取文件路径
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"zydata3" ofType:@"json"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"zydata2" ofType:@"json"];
     // 将文件数据化
     NSData *data = [[NSData alloc] initWithContentsOfFile:path];
     NSString * string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];

@@ -32,16 +32,23 @@
         flowLayout.minimumLineSpacing = spacing;
         flowLayout.sectionInset = UIEdgeInsetsZero;
         CGFloat length = 0.0f;
+        CGFloat height = 0.0f;
         CGFloat numRows = ceilf(object.imgs.count / 3.0f);
         if (object.imgs.count == 1) {
-            length = _maxWidth;
+            ZYImg * img = object.imgs[0];
+            length = 232*0.75; //(232*(img.w))/img.h;
+            height = 232;
+            flowLayout.itemSize = CGSizeMake(length, height);
+            _maxWidth = length;
         }  else {
             length = (_maxWidth - 2*spacing-5)/3.0f ;//ceilf((_maxWidth - 2*spacing)/3.0f);
+            flowLayout.itemSize = CGSizeMake(length, length);
         }
-        flowLayout.itemSize = CGSizeMake(length, length);
+        
+//        flowLayout.itemSize = CGSizeMake(length, length);
         _itemSize = flowLayout.itemSize;
         
-        CGFloat totalHeight = length;
+        CGFloat totalHeight = _itemSize.height;
         if (object.imgs.count > 3) {
             totalHeight = (numRows * (length + flowLayout.minimumLineSpacing)) - flowLayout.minimumLineSpacing;
         }
